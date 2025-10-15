@@ -15,8 +15,11 @@ The objective of this project is to build a cloud-native data pipeline that auto
 
 ### 🛠️ Architecture
 **Extract:** Fetch water quality data (e.g., temperature, turbidity, conductivity, pH) from MWA’s API.
+
 **Transform:** Normalize and convert the JSON response to CSV using Python.
+
 **Load:** Upload the CSV to GCS and load it into BigQuery.
+
 **Visualize:** Build a time-series dashboard in Looker Studio.    
 
 ![flow-diagram](docs/flow-diagram.png)
